@@ -47,9 +47,9 @@
   vertical-align: top;
 }
 
-.Weather ul.details {
+.Weather .details {
   color: #70757a;
-  display: inline-block;
+  display: inline;
   font-size: 12px;
   line-height: 16px;
   padding-left: 9px;
