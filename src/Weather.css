@@ -62,3 +62,7 @@
   position: relative;
   font-weight: normal;
 }
+
+.Weather .selected-date {
+  list-style: none;
+}

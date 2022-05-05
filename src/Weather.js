@@ -42,7 +42,7 @@ export default function Weather() {
         </div>
         <div className="col-5">
           <h1>New York</h1>
-          <ul>
+          <ul className="selected-date">
             <li>Wednesday</li>
             <li>Mostly Cloudy</li>
           </ul>
