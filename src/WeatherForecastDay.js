@@ -12,7 +12,11 @@ export default function WeatherForecastDay(response) {
   return (
     <div className="WeatherForecastDay">
       <div className="FormattedForecastDate">{formatDay()}</div>
-      <img alt="/"></img>
+      <img
+        src={`http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`}
+        alt="icon"
+        width="30px"
+      ></img>
       <div className="Weather-Forecast-Temp">
         <span className="Weather-Forecast-Temp-max">
           {Math.round(response.data.temp.max)}°
